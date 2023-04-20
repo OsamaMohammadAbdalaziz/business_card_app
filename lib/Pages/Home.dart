@@ -33,11 +33,12 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
+              color: Color.fromARGB(255, 255, 255, 255),
               child: Row(
                 children: [
                   Icon(
                     Icons.phone,
-                    color: Color.fromARGB(255, 255, 255, 255),
+                    color: Color.fromARGB(255, 4, 0, 255),
                   ),
                   SizedBox(
                     width: 15,
@@ -45,7 +46,7 @@ class Home extends StatelessWidget {
                   Text(
                     "+971 56 724 6732",
                     style: TextStyle(
-                      color: Color.fromARGB(255, 255, 255, 255),
+                      color: Color.fromARGB(255, 0, 0, 0),
                       fontSize: 20,
                     ),
                   ),
