@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
               height: 20,
             ),
             Card(
-              margin: EdgeInsets.all(20),
+              margin: EdgeInsets.all(10),
               child: ListTile(
                 leading: Icon(
                   Icons.phone,
@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Card(
-              margin: EdgeInsets.all(20),
+              margin: EdgeInsets.all(10),
               child: ListTile(
                 leading: Icon(
                   Icons.email,
