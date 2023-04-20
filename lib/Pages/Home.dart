@@ -32,6 +32,9 @@ class Home extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Container(
               margin: EdgeInsets.all(20),
               padding: EdgeInsets.all(10),
