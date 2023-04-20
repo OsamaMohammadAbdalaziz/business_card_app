@@ -63,20 +63,17 @@ class Home extends StatelessWidget {
             Card(
               color: Color.fromARGB(255, 255, 255, 255),
               margin: EdgeInsets.all(20),
-              child: Padding(
-                padding: const EdgeInsets.all(10),
-                child: ListTile(
-                  leading: Icon(
-                      Icons.email,
-                      color: Color.fromARGB(255, 4, 0, 255),
-                    ),
-                    title: Text(
-                      "osama.mohammad2352002@gmail.com",
-                      style: TextStyle(
-                        color: Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 16,
-                      ),
-                    ),
+              child: ListTile(
+                leading: Icon(
+                  Icons.email,
+                  color: Color.fromARGB(255, 4, 0, 255),
+                ),
+                title: Text(
+                  "osama.mohammad2352002@gmail.com",
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    fontSize: 14,
+                  ),
                 ),
               ),
             ),
