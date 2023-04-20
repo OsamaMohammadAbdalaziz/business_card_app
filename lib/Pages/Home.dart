@@ -37,7 +37,6 @@ class Home extends StatelessWidget {
             ),
             Card(
               margin: EdgeInsets.all(20),
-              color: Color.fromARGB(255, 255, 255, 255),
               child: ListTile(
                 leading: Icon(
                   Icons.phone,
@@ -53,7 +52,6 @@ class Home extends StatelessWidget {
               ),
             ),
             Card(
-              color: Color.fromARGB(255, 255, 255, 255),
               margin: EdgeInsets.all(20),
               child: ListTile(
                 leading: Icon(
