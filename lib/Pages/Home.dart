@@ -34,7 +34,12 @@ class Home extends StatelessWidget {
             ),
             Container(
               child: Row(
-                
+                children: [
+                  Icon(
+                    Icons.phone,
+                    color: Color.fromARGB(255, 255, 255, 255),
+                  )
+                ],
               ),
             ),
           ],
