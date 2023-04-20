@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: file_names, prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 
@@ -30,6 +30,11 @@ class Home extends StatelessWidget {
                 color: Colors.white70,
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
+              ),
+            ),
+            Container(
+              child: Row(
+                
               ),
             ),
           ],
