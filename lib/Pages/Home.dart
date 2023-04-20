@@ -34,7 +34,9 @@ class Home extends StatelessWidget {
               ),
             ),
             SizedBox(
+              width: 200,
               height: 20,
+              child: Divider(color: Color.fromARGB(255, 255, 255, 255)),
             ),
             Card(
               margin: EdgeInsets.all(10),
