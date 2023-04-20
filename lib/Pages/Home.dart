@@ -24,6 +24,14 @@ class Home extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            Text(
+              "𝓐𝓹𝓹𝓵𝓲𝓬𝓪𝓽𝓲𝓸𝓷 𝓹𝓻𝓸𝓰𝓻𝓪𝓶𝓶𝓮𝓻",
+              style: TextStyle(
+                color: Colors.white70,
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
