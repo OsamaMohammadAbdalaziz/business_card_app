@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Color.fromARGB(255, 4, 0, 255),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
               radius: 50,
