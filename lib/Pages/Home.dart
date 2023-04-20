@@ -40,23 +40,18 @@ class Home extends StatelessWidget {
               color: Color.fromARGB(255, 255, 255, 255),
               child: Padding(
                 padding: const EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Icon(
+                child: ListTile(
+                  leading: Icon(
                       Icons.phone,
                       color: Color.fromARGB(255, 4, 0, 255),
                     ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Text(
+                    title: Text(
                       "+971 56 724 6732",
                       style: TextStyle(
                         color: Color.fromARGB(255, 0, 0, 0),
                         fontSize: 20,
                       ),
                     ),
-                  ],
                 ),
               ),
             ),
