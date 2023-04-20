@@ -38,7 +38,14 @@ class Home extends StatelessWidget {
                   Icon(
                     Icons.phone,
                     color: Color.fromARGB(255, 255, 255, 255),
-                  )
+                  ),
+                  Text(
+                    "+971 56 724 6732",
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 255, 255, 255),
+                      fontSize: 20,
+                    ),
+                  ),
                 ],
               ),
             ),
