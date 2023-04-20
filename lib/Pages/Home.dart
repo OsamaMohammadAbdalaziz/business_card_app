@@ -17,8 +17,9 @@ class Home extends StatelessWidget {
               backgroundImage: AssetImage("assets/Images/Osama.jpg"),
             ),
             Text(
-              "𝓞𝓼𝓪𝓶𝓪 𝓜𝓸𝓱𝓪𝓶𝓶𝓪𝓭 𝓐𝓫𝓭-𝓐𝓵𝓪𝔃𝓲𝔃",
+              "Osama Mohammad Abd-Alaziz",
               style: TextStyle(
+                fontFamily: 'GreatVibes',
                 fontSize: 30,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
