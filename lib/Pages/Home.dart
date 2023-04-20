@@ -65,11 +65,14 @@ class Home extends StatelessWidget {
                     Icons.email,
                     color: Color.fromARGB(255, 4, 0, 255),
                   ),
+                  SizedBox(
+                    width: 15,
+                  ),
                   Text(
                     "osama.mohammad2352002@gmail.com",
                     style: TextStyle(
                       color: Color.fromARGB(255, 0, 0, 0),
-                      fontSize: 15,
+                      fontSize: 16,
                     ),
                   ),
                 ],
