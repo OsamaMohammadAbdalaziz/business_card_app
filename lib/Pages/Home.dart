@@ -61,7 +61,10 @@ class Home extends StatelessWidget {
               padding: EdgeInsets.all(10),
               child: Row(
                 children: [
-                  Icon(Icons.email)
+                  Icon(
+                    Icons.email,
+                    color: Color.fromARGB(255, 4, 0, 255),
+                  ),
                 ],
               ),
             ),
