@@ -55,6 +55,9 @@ class Home extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              color: Color.fromARGB(255, 255, 255, 255),
+            ),
           ],
         ),
       ),
