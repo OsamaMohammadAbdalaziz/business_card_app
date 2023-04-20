@@ -38,20 +38,17 @@ class Home extends StatelessWidget {
             Card(
               margin: EdgeInsets.all(20),
               color: Color.fromARGB(255, 255, 255, 255),
-              child: Padding(
-                padding: const EdgeInsets.all(10),
-                child: ListTile(
-                  leading: Icon(
-                      Icons.phone,
-                      color: Color.fromARGB(255, 4, 0, 255),
-                    ),
-                    title: Text(
-                      "+971 56 724 6732",
-                      style: TextStyle(
-                        color: Color.fromARGB(255, 0, 0, 0),
-                        fontSize: 20,
-                      ),
-                    ),
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Color.fromARGB(255, 4, 0, 255),
+                ),
+                title: Text(
+                  "+971 56 724 6732",
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    fontSize: 20,
+                  ),
                 ),
               ),
             ),
