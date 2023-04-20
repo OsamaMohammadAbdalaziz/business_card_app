@@ -33,6 +33,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
+              margin: EdgeInsets.all(20),
               color: Color.fromARGB(255, 255, 255, 255),
               child: Row(
                 children: [
