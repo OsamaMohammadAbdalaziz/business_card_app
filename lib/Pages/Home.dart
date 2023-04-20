@@ -16,6 +16,14 @@ class Home extends StatelessWidget {
               radius: 50,
               backgroundImage: AssetImage("assets/Images/Osama.jpg"),
             ),
+            Text(
+              "𝓞𝓼𝓪𝓶𝓪 𝓜𝓸𝓱𝓪𝓶𝓶𝓪𝓭 𝓐𝓫𝓭-𝓐𝓵𝓪𝔃𝓲𝔃",
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
