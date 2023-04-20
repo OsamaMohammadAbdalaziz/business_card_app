@@ -14,6 +14,7 @@ class Home extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 50,
+              backgroundColor: Colors.white,
             )
           ],
         ),
